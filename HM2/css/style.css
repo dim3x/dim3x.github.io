@@ -1,0 +1,57 @@
+body{
+    background-color: #f6f4f3;
+}
+
+.wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1{
+   
+    text-decoration: underline;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+img{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	display: block;
+}
+
+p{
+	font-family: Arial;
+	font-size: 14px;
+	color: #4a4949;
+}
+
+h2{
+	font-family: 'Myriad Pro';
+	font-size: 18px;
+	font-weight: bold;
+    color: black;
+}
+
+hr{
+    width: 500px;
+}   
+
+.Article li, 
+.contacts p,
+.feedback p{
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    color: black;
+}
+
+.contacts p,
+.contacts a,
+.feedback p{
+    margin-left: 40px
+}
+
+
+

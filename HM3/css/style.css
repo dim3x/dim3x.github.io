@@ -85,13 +85,13 @@ body{
 }
 .text{
      display: block;
+     float: right;
+     width: 70%;
 }
 
 .text p {
-	float: right;
     text-align: left;
     margin: 20px 0;
-	margin-left: 320px;
     line-height: 100%;
 	font-size: 13.67px;
 	font-family: 'Myriad Pro';

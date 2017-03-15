@@ -90,7 +90,7 @@ body{
 .text p {
 	float: right;
     text-align: left;
-    margin-top: 20px;
+    margin: 20px 0;
 	margin-left: 320px;
     line-height: 100%;
 	font-size: 13.67px;
@@ -99,7 +99,7 @@ body{
 }
 
 .menu2{
-   margin-top: 80px;
+   clear: both;
    background-color: #e1e1e1;
 }
 
@@ -123,8 +123,7 @@ body{
 }
 
 .menu2 ul li:last-child{
-	padding-left: 180px;
-}
+	float: right;
 
 .menu2 ul li a:hover{
 	text-decoration: underline;

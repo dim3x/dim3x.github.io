@@ -1,0 +1,111 @@
+.wrapper{
+	display: block;
+	position: relative;
+	width: 1000px;
+    margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.header{
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #128aa7;
+}
+
+.contacts {
+	float: right;
+}
+
+.contacts li{
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.logo p{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12px;
+
+}
+
+.contries{
+	float: right;
+	clear: both;
+	margin-top: 10px;
+}
+
+.contries li{
+    display: inline-block;
+    text-align: center;
+    font: 10px Tahoma;
+}
+
+.contries a{
+	color:#128aa7;
+}
+
+.picture img{
+	margin: 0 auto;
+	padding: 0;
+	border-bottom: 1px solid #128aa7;
+}
+
+.picture img{
+    width: 1000px;
+    height: 240px;
+}
+
+.clearfix:after{
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+.menu{
+	background: #343434;
+	
+}
+.menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background: #343434;
+    text-decoration: none;
+
+}
+.submenu {
+    overflow: hidden;
+    position: absolute;
+    width: 110px;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+.submenu > li {
+    display: block;
+}
+.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}

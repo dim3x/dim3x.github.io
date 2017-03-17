@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-	background-color: #f9f9f9;
+	background-color: #ffffff;
 }
 
 .wrapper {
@@ -13,10 +13,10 @@ body{
 	height: 850px;
 	border-left: 1.5px solid #dbd;
 	border-right: 1.5px solid #dbd;
-    -webkit-box-shadow: 0px -3px 5px 5px rgba(219,219,219,0.84);
-    -moz-box-shadow: 0px -3px 5px 5px rgba(219,219,219,0.84);
-    box-shadow: 0px -3px 5px 5px rgba(219,219,219,0.84);
- }
+	border-color: -webkit-box-shadow: 0px -4px 5px 2px rgba(219,219,219,0.66);
+-moz-box-shadow: 0px -4px 5px 2px rgba(219,219,219,0.66);
+box-shadow: 0px -4px 5px 2px rgba(219,219,219,0.66);
+}
 
 .logo{
 	padding-bottom: 40px;
@@ -43,13 +43,15 @@ body{
 
 .menu ul li {
    display: inline-block;
-   margin: 0;
+   height: 42px;
+   margin: 0 auto;
    padding: 0;
 }
 
 .menu ul li a {
 	display: block;
 	padding: 10px 40px;
+	height: 39px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14.67px;
 	text-decoration: none;
@@ -60,10 +62,10 @@ body{
 .menu ul li a:hover { 
 	margin: 0 auto;
 	padding: 0 auto;
+	text-align: center;
 	height: 20px;
 	background: #343434;
-	border-left: 1px solid #a2a2a2;
-	border-right: 1px solid #a2a2a2;
+	outline: 1px solid #838383;
 }
 
 .content {
@@ -85,15 +87,17 @@ body{
 	display: block;
 	margin: 10px 0 0 40px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14,67px;
+	font-size: 13.33px;
     text-decoration: none;
 	color: #656363;
 }
 
+.content ul li:hover{
+	background: #f9f9f9;
+}
 .content ul li a:hover{
 	color: #2c2c2c;
-	background-color: #f9f9f9;
-	padding: 0 0 0 20px;
+	padding-left: 20px;
 }
 .img {
 	float: right;
@@ -115,7 +119,7 @@ body{
     text-align: left;
     margin: 35px 0 60px 0;
     line-height: 21.33px;
-	font-size: 13.67px;
+	font-size: 13.33px;
 	font-family: 'Open Sans', sans-serif;
 	color: #2c2c2c;
 }
@@ -141,13 +145,19 @@ body{
 	display: block;
 	padding: 10px 40px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14,67px;
+	font-size: 13.33px;
 	text-decoration: none;
 	color: #2c2c2c;
 }
 
 .menu2 ul li:last-child{
 	float: right;
+	display: block;
+	padding: 10px 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13.33px;
+	color: #2c2c2c;
+
 }
 .menu2 ul li a:hover{
 	text-decoration: underline;

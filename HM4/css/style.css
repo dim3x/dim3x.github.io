@@ -68,44 +68,49 @@
     clear: both;
     float: none;
 }
-.menu{
+.topmenu{
 	background: #343434;
+}
 	
+.topmenu > li {
+  display: inline-block;
+  font: 14px Tahoma;
+  position: relative;
 }
-.menu ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-ul.menu > li {
-    float: left;
-    position: relative;
-}
-ul.menu > li > a {
-    display: block;
-    padding: 10px;
-    color: white;
-    background: #343434;
-    text-decoration: none;
 
+.topmenu > li > a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  outline: none;
 }
+
 .submenu {
-    overflow: hidden;
-    position: absolute;
-    width: 110px;
-    top: 40px;
-    left: 0;
-    background-color: white;
-    border: 1px solid red;
+  position: absolute;
+  top: 100%;
+  left: 12px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
 }
-.submenu > li {
-    display: block;
-}
-.submenu > li > a {
-    display: block;
-    padding: 10px;
-    color: white;
-    background-color: red;
+
+.submenu a{
+    color: #fff;
     text-decoration: none;
+    margin: 0 auto;
+}
+
+.one .submenu {
+  display: none;
+}
+
+.one ul li:hover .submenu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: #343434;
+}
+
+.one ul li a:hover .submenu{
+    color: white;
 }
